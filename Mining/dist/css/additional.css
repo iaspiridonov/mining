@@ -1,0 +1,53 @@
+.u-font-size-14 {
+    font-size: 14px;   
+}
+
+.u-font-size-18 {
+    font-size: 18px;   
+}
+
+.u-font-size-20 {
+    font-size: 20px;   
+}
+
+.u-font-size-22 {
+    font-size: 22px;   
+}
+
+.power {
+    
+}
+
+.power .card-title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.power__option {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.power__option-value {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.power__option-radio {
+    margin-bottom: 10px;
+}
+
+.no-btn {
+    cursor: default !important;
+    color: #fff;
+}
+
+.no-btn:hover {
+    color: #fff;
+}
+
+.color-blue {
+    color: rgb(27, 27, 129);
+}

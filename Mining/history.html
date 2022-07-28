@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>Elite Admin Template - The Ultimate Multipurpose admin template</title>
+    <link href="../assets/node_modules/morrisjs/morris.css" rel="stylesheet">
+    <link href="dist/css/pages/ecommerce.css" rel="stylesheet">
+    <link href="dist/css/style.min.css" rel="stylesheet">
+    <link href="dist/css/additional.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="skin-default fixed-layout">
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Elite admin</p>
+        </div>
+    </div>
+    <div id="main-wrapper">
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <b>
+                            <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                            <img src="../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                        </b>
+                        <span>
+                            <img src="../assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                            <img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                        </span>
+                    </a>
+                </div>
+                
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"> <a class="nav-link nav-toggler d-block d-md-none waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                        <li class="nav-item"> <a class="nav-link sidebartoggler d-none d-lg-block d-md-block waves-effect waves-dark" href="javascript:void(0)"><i class="icon-menu"></i></a> </li>
+                        <li class="nav-item">
+                            <form class="app-search d-none d-md-block d-lg-block">
+                                <input type="text" class="form-control" placeholder="Search & enter">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <aside class="left-sidebar">
+            <div class="scroll-sidebar">
+                <div class="user-profile">
+                    <div class="user-pro-body">
+                        <div><img src="../assets/images/users/2.jpg" alt="user-img" class="img-circle"></div>
+                        <div class="dropdown">
+                            <a href="javascript:void(0)" class="dropdown-toggle u-dropdown link hide-menu" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Steave Gection <span class="caret"></span></a>
+                            <div class="dropdown-menu animated flipInY">
+                                <a href="javascript:void(0)" class="dropdown-item"><i class="ti-user"></i> My Profile</a>
+                                <a href="javascript:void(0)" class="dropdown-item"><i class="ti-wallet"></i> My Balance</a>
+                                <a href="javascript:void(0)" class="dropdown-item"><i class="ti-email"></i> Inbox</a>
+                                <div class="dropdown-divider"></div>
+                                <a href="javascript:void(0)" class="dropdown-item"><i class="ti-settings"></i> Account Setting</a>
+                                <div class="dropdown-divider"></div>
+                                <a href="login.html" class="dropdown-item"><i class="fa fa-power-off"></i> Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="nav-small-cap">--- PERSONAL</li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fab fa-bitcoin"></i><span class="hide-menu">Balance</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fas fa-cogs"></i><span class="hide-menu">Settings</span></a></li>
+                        <li class="nav-small-cap">--- COMMON</li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fas fa-cloud"></i><span class="hide-menu">Mining</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fas fa-cart-plus"></i><span class="hide-menu">Buy powers</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fas fa-clock"></i><span class="hide-menu">History</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fas fa-user-plus"></i><span class="hide-menu">Referal program</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="https://t.me/noros_crypto" target="_blank" aria-expanded="false"><i class="fab fa-telegram"></i><span class="hide-menu">News</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fas fa-bell"></i><span class="hide-menu">Support</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        
+        <div class="page-wrapper">
+            <div class="container-fluid">
+                
+                <div class="row page-titles">
+                    <div class="col-md-5 align-self-center">
+                        <h4 class="text-themecolor">History</h4>
+                    </div>
+                    <div class="col-md-7 align-self-center text-end">
+                        <div class="d-flex justify-content-end align-items-center">
+                            <ol class="breadcrumb justify-content-end">
+                                <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                                <li class="breadcrumb-item active">History</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body p-b-0">
+                                <div class="d-flex justify-content-between">
+                                    <h2 class="card-title">Title</h4>
+                                    <p><a href="#" class="font-18 text-default"><i class="me-2 fas fa-download"></i>Get your history on email</a></p>
+                                </div>
+                                <h6 class="card-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, asperiores!</h6>
+                            </div>
+                            <ul class="nav nav-tabs customtab" role="tablist">
+                                <li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#finishedContracts" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down">Finished contracts</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#payouts" role="tab"><span class="hidden-sm-up"><i class="ti-user"></i></span> <span class="hidden-xs-down">Payouts</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#withdrawals" role="tab"><span class="hidden-sm-up"><i class="ti-email"></i></span> <span class="hidden-xs-down">Withdrawals</span></a> </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane p-20 active" id="finishedContracts" role="tabpanel">
+                                    <div class="table-responsive">
+                                        <table class="tablesaw table-bordered table-hover table no-wrap" data-tablesaw-mode="swipe"
+                                            data-tablesaw-sortable data-tablesaw-sortable-switch data-tablesaw-minimap
+                                            data-tablesaw-mode-switch>
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-sortable-default-col
+                                                        data-tablesaw-priority="3" class="border">
+                                                        Exchange rate
+                                                    </th>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="2" class="border">
+                                                        Date
+                                                    </th>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-sortable-default-col
+                                                        data-tablesaw-priority="3" class="border">
+                                                        Exchange rate
+                                                    </th>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="2" class="border">
+                                                        Date
+                                                    </th>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-sortable-default-col
+                                                        data-tablesaw-priority="3" class="border">
+                                                        Exchange rate
+                                                    </th>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="2" class="border">
+                                                        Date
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                </div>
+                                <div class="tab-pane p-20" id="payouts" role="tabpanel">
+                                    <div class="table-responsive">
+                                        <table class="tablesaw table-bordered table-hover table no-wrap" data-tablesaw-mode="swipe"
+                                            data-tablesaw-sortable data-tablesaw-sortable-switch data-tablesaw-minimap
+                                            data-tablesaw-mode-switch>
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-sortable-default-col
+                                                        data-tablesaw-priority="3" class="border">
+                                                        Exchange rate
+                                                    </th>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="2" class="border">
+                                                        Date
+                                                    </th>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-sortable-default-col
+                                                        data-tablesaw-priority="3" class="border">
+                                                        Exchange rate
+                                                    </th>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="2" class="border">
+                                                        Date
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14:39 on 14.05.2022</td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane p-20" id="withdrawals" role="tabpanel">
+                                    <div class="table-responsive">
+                                        <table class="tablesaw table-bordered table-hover table no-wrap" data-tablesaw-mode="swipe"
+                                            data-tablesaw-sortable data-tablesaw-sortable-switch data-tablesaw-minimap
+                                            data-tablesaw-mode-switch>
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-sortable-default-col
+                                                        data-tablesaw-priority="3" class="border">
+                                                        Amount
+                                                    </th>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="2" class="border">
+                                                        Date
+                                                    </th>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-sortable-default-col
+                                                        data-tablesaw-priority="3" class="border">
+                                                        Transaction hash
+                                                    </th>
+                                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="2" class="border">
+                                                        Status
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14.05.2022</td>
+                                                    <td>-</td>
+                                                    <td><div type="button" class="no-btn btn w-100 btn-success">Success</div></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14.05.2022</td>
+                                                    <td>0xpdsegnoiseoifnjseiofnise</td>
+                                                    <td><div type="button" class="no-btn btn w-100 btn-warning">Pending</div></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14.05.2022</td>
+                                                    <td>0xpdsegnoiseoifnjseiofnise</td>
+                                                    <td><div type="button" class="no-btn btn w-100 btn-danger">Danger</div></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>$ 0.01002222 BTC</td>
+                                                    <td>14.05.2022</td>
+                                                    <td>0xpdsegnoiseoifnjseiofnise</td>
+                                                    <td><div type="button" class="no-btn btn w-100 btn-success">Success</div></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <footer class="footer">
+            © 2022 All rights reserved
+        </footer>
+    </div>
+    <script src="../assets/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="dist/js/waves.js"></script>
+    <script src="dist/js/sidebarmenu.js"></script>
+    <script src="../assets/node_modules/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="../assets/node_modules/sparkline/jquery.sparkline.min.js"></script>
+    <script src="dist/js/custom.min.js"></script>
+    <script src="../assets/node_modules/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <script src="../assets/node_modules/raphael/raphael-min.js"></script>
+    <script src="../assets/node_modules/morrisjs/morris.min.js"></script>
+    <script src="dist/js/ecom-dashboard.js"></script>
+</body>
+
+</html>
